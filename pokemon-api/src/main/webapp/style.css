@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+	max-width: fit-content;
+    max-height: fit-content;
+    margin: auto;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    border: 1px lightgray solid;
+    border-radius: 10px;
+}
+
+.div{
+    margin: auto;
+    margin-top: 1rem;
+}
+
+img{
+    width: 200px;
+}
+
+input{
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border: 1px lightgray solid;
+    border-radius: 10px;
+}
