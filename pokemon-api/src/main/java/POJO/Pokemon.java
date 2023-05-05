@@ -1,10 +1,30 @@
 package POJO;
 
-public class Pokemon {
+import java.util.List;
 
-	private String name;
+import jakarta.persistence.ElementCollection;
+import jakarta.persistence.Embedded;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "Pokemon")
+public class Pokemon {
+	
+	@Id
 	private int id;
+	private String name;
+	@Embedded
+	private List<Stats> stats;
+	@Embedded
 	private Sprites sprites;
+	
+	
+	public Pokemon() {
+		super();
+	}
 	
 	public String getName() {
 		return name;
@@ -30,15 +50,13 @@ public class Pokemon {
 		this.sprites = sprites;
 	}
 
-
-
-	public class Sprites{
-		private String front_default;
-		
-		public String getFrontDefault() {
-            return front_default;
-        }
-	}
-	
+	public List<Stats> getStats() {
+        return stats;
+    }
+    
+    public void setStats(List<Stats> stats) {
+        this.stats = stats;
+    }
 	
 }
+
