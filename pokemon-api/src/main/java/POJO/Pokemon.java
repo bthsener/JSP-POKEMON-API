@@ -16,7 +16,7 @@ public class Pokemon {
 	@Id
 	private int id;
 	private String name;
-	@Embedded
+	@Embedded 
 	private List<Stats> stats;
 	@Embedded
 	private Sprites sprites;
