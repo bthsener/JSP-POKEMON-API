@@ -25,6 +25,7 @@
     font-size: x-large;
     border: 1px lightgray solid;
     border-radius: 10px;
+    text-align: center;
 }
 
 .div{
@@ -42,4 +43,9 @@ input{
     padding: 0.5rem 1rem;
     border: 1px lightgray solid;
     border-radius: 10px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
 }
