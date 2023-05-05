@@ -18,7 +18,6 @@ public class savePokemon extends HttpServlet{
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		
 		Pokemon pokemon = (Pokemon) req.getSession().getAttribute("pokemon");
 		
 		PokemonDaoImp daoImp = new PokemonDaoImp();
