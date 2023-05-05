@@ -1,6 +1,6 @@
 # JSP-POKEMON-PROJECT
-![main](https://user-images.githubusercontent.com/27796975/236394447-c3a12d9c-a171-455c-8417-874a3e6fda4e.jpg)
-![pokemonlist](https://user-images.githubusercontent.com/27796975/236394459-3aa47efd-6f4c-46f0-a521-da57c226efd3.jpg)
+![main](https://user-images.githubusercontent.com/27796975/236394447-c3a12d9c-a171-455c-8417-874a3e6fda4e.jpg)  
+![pokemonlist](https://user-images.githubusercontent.com/27796975/236394459-3aa47efd-6f4c-46f0-a521-da57c226efd3.jpg)  
 A Java JSP project that displays a random Pokémon using the Pokémon API. This project uses the GSON library for JSON parsing and Hibernate for database operations. 
 
 ## Installation
